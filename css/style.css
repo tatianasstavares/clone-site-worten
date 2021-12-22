@@ -1,0 +1,54 @@
+:root {
+    --vermelho: #E41A15;
+    --branco:#fff;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/*----------------------------- BODY-----------------------*/
+
+/*----------------------------- HEADER-----------------------*/
+
+header {
+    background-color: var(--vermelho)
+}
+
+/*----------------------------- NAV-----------------------*/
+
+nav {
+    background-color:  var(--vermelho)
+
+}
+.btn{
+      color:var(var(--branco));
+      background-color: var(--vermelho);
+      border: 1px solid var(--branco);
+}
+.btn:hover{
+      color:var(--vermelho);
+      background-color: var(
+    --branco
+      );
+      border: 1px solid var(--vermelho);
+}
+/*----------------------------- MAIN-----------------------*/
+
+/*----------------------------- FOOTER-----------------------*/
+footer {
+    background-color:  var(--vermelho);
+}
+
+footer a {
+    color: var(--branco);
+    border: 1px solid var(--branco);
+    padding: 5px;
+    border-radius: 220px;
+
+}
+footer a:hover {
+    color: var(--vermelho);
+    border: 1px solid var(--vermelho);
+    background-color: var(--branco);
+}

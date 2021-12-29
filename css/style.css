@@ -34,7 +34,9 @@ nav {
       border: 1px solid var(--vermelho);
 }
 /*----------------------------- MAIN-----------------------*/
-
+main {
+    text-align: justify;
+}
 /*----------------------------- FOOTER-----------------------*/
 footer {
     background-color:  var(--vermelho);

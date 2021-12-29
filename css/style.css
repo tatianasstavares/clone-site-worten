@@ -75,6 +75,14 @@ main img {
     filter:invert(1);
 
 }
+
+iframe {
+    height:400px;
+}
+
+.container-contact {
+    text-align: center;
+}
 /*----------------------------- FOOTER-----------------------*/
 footer {
     background-color:  var(--vermelho);

@@ -55,6 +55,26 @@ main img {
 .badge {
     background-color: var(--vermelho);
 }
+.carousel-item h5, .carousel-item p {
+    background-color: var(--vermelho);
+    
+}
+
+.carousel {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.carousel-control-next-icon,
+
+.carousel-control-prev-icon,
+
+.carousel-indicators{
+
+    filter:invert(1);
+
+}
 /*----------------------------- FOOTER-----------------------*/
 footer {
     background-color:  var(--vermelho);
